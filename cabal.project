@@ -1,3 +1,27 @@
 -- see http://cabal.readthedocs.io/en/latest/nix-local-build-overview.html for more information
 
 packages: .
+
+source-repository-package
+  type: git
+  location: https://github.com/PaulJohnson/gtk2hs
+  tag: 1f05a755e4b570a4576935332961cc4bf3a8fe97
+  subdir: glib
+
+source-repository-package
+  type: git
+  location: https://github.com/PaulJohnson/gtk2hs
+  tag: 1f05a755e4b570a4576935332961cc4bf3a8fe97
+  subdir: pango
+
+source-repository-package
+  type: git
+  location: https://github.com/kakkun61/gtk2hs
+  tag: 51a8162c0ecaf5c4fc50eae1d740eb97a02882d3
+  subdir: gio
+
+source-repository-package
+  type: git
+  location: https://github.com/kakkun61/gtk2hs
+  tag: 51a8162c0ecaf5c4fc50eae1d740eb97a02882d3
+  subdir: gtk
