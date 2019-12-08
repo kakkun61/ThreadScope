@@ -5,19 +5,19 @@ packages: .
 source-repository-package
   type: git
   location: https://github.com/PaulJohnson/gtk2hs
-  tag: 1f05a755e4b570a4576935332961cc4bf3a8fe97
+  tag: a0ebf8672b09b9f4d5307f16890e68861555308e
   subdir: glib
 
 source-repository-package
   type: git
   location: https://github.com/PaulJohnson/gtk2hs
-  tag: 1f05a755e4b570a4576935332961cc4bf3a8fe97
+  tag: a0ebf8672b09b9f4d5307f16890e68861555308e
   subdir: pango
 
 source-repository-package
   type: git
-  location: https://github.com/kakkun61/gtk2hs
-  tag: 94426fc9f43cd1992662184b69f8bc9b10f8b7de
+  location: https://github.com/PaulJohnson/gtk2hs
+  tag: a0ebf8672b09b9f4d5307f16890e68861555308e
   subdir: gio
 
 source-repository-package
